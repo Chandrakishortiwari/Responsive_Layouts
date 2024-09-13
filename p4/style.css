@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #a70000;
+
+}
+
+nav{
+    background-color: #5e0808; 
+   
+  
+}
+.container{
+  max-width:1200px ;
+  
+   margin: 0 auto;
+   padding: 36px 16px;
+}
+.navigation{
+    display: flex;
+    height: 100%;
+    align-items: center;
+  
+    justify-content: space-between;
+    min-height: 93px; 
+}
+.left_nav{
+  display: flex;
+ 
+  gap :8px;
+  height: 40px;
+  width: 100%;
+ 
+ 
+}
+.logo{
+    background-color: red;
+    height: 40px;
+    min-width: 164px;
+}
+.link{
+    background-color: red;
+    height: 40px;
+    width: 64px;
+}
+.avtar{
+    background-color: red;
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+}
+
+
+/* card  style*/
+
+.card{
+    display: flex;
+  gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #ffd8d8;
+}
+.cricle{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.line_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.line{
+    height: 24px;
+    width: 100%;
+
+    background-color: #5e0808; 
+}
+
+  
+@media (width >1200px){
+  
+    
+}
+
+@media screen and (width < 1200px) and (width > 650px){
+    
+}
+   
+
+ @media (width < 650px){
+    .logo{
+        background-color: red;
+        height: 40px;
+        min-width: 70px;
+    }
+    
+.avtar{
+ 
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
+.left_nav{
+   
+    max-width:266px ;
+   }
+ }
